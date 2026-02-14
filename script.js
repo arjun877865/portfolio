@@ -5,8 +5,10 @@
   // ── Supabase client ──
   // ⚠️  Replace these with your own Supabase project URL and anon key
   //     from: https://supabase.com/dashboard → Project Settings → API
-  const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-  const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+
+  + const SUPABASE_URL = 'https://fedecuzhxuikdpyehoco.supabase.co';
+  + const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZlZGVjdXpoeHVpa2RweWVob2NvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwMzU5MjEsImV4cCI6MjA4NjYxMTkyMX0.CliP5e6fzZNxg3Z4Zp-82Q6fYzduCw2OEsUtLVgutmk';
+
   let supabase = null;
   if (
     typeof window.supabase !== 'undefined' &&
